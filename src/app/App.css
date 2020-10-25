@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.game__wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game{
+  width: 162px;
+  height: 162px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 100px auto 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.grid{
+  font-family: 'Cabin Sketch';
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid grey;
+}
+
+button{
+  cursor: pointer;
+}
